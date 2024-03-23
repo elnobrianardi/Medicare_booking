@@ -127,7 +127,7 @@ const Footer = () => {
             Support
           </h2>
           <ul>
-            {quickLinks03.map((item, index) => 
+            {quickLinks01.map((item, index) => 
               <li key={index} className='mb-4'>
                 <Link to={item.path} className='text-[16px] leading-7 font-[400] text-textColor'>
                   {item.display}
